@@ -93,9 +93,7 @@
               <artifactId>maven-pmd-plugin</artifactId>
             </plugin>
 
-            <plugin>
-              <artifactId>maven-surefire-report-plugin</artifactId>
-            </plugin>
+            
 
             <plugin>
               <groupId>org.codehaus.mojo</groupId>
@@ -109,6 +107,9 @@
           </reportPlugins>
          </configuration>
       </plugin>
+             <plugin>
+              <artifactId>maven-surefire-report-plugin</artifactId>
+            </plugin>
     </plugins>
 
     <pluginManagement>
